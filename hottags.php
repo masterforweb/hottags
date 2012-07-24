@@ -41,3 +41,8 @@ function a($link, $title) {
 function li_a($title, $link) {
 	echo '<li><a href="'.$link.'">'.$title.'</a></li>';
 }
+
+function jquery($ver) {
+
+	echo '<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/'.$ver.'/jquery.min.js"></script>';
+}
