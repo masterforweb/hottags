@@ -9,8 +9,8 @@ function js($code) {
 	echo '<script type="text/javascript" src="'.$code.'"></script>';		
 }
 
-function css($code) {
-	echo '<style>'.$code.'</style>';
+function css($file) {
+	echo '<link rel="stylesheet" href="'.$file.'" type="text/css">';
 }
 
 function icon($file) {
