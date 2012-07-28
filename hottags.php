@@ -1,7 +1,6 @@
 <?php
 
 function charset($code){
-
 	echo '<meta http-equiv="Content-Type" content="text/html; charset='.$code.'" />';
 }
 
@@ -18,7 +17,6 @@ function icon($file) {
 }
 
 function feed($file) {
-
 	echo '<link title="argumenti_ru" type="application/rss+xml" rel="alternate" href="'.$file.'"/>';
 }
 
@@ -43,7 +41,6 @@ function li_a($title, $link) {
 }
 
 function jquery($ver) {
-
 	echo '<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/'.$ver.'/jquery.min.js"></script>';
 }
 
