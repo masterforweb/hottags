@@ -46,3 +46,7 @@ function jquery($ver) {
 
 	echo '<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/'.$ver.'/jquery.min.js"></script>';
 }
+
+function banner($img, $link, $alt = '') {
+	echo '<a href="'.$link.'" target="_blank"><img src="'.$img.'" alt="'.$alt.'"></a>';
+} 
