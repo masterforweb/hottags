@@ -1,6 +1,6 @@
 <?php
 
-function charset($code){
+function charset($code='utf-8'){
 	echo '<meta http-equiv="Content-Type" content="text/html; charset='.$code.'" />';
 }
 
