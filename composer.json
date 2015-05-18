@@ -1,0 +1,20 @@
+{
+    "name": "akdelf/hottags",
+    "description": "tags to template",
+    "homepage": "https://github.com/akdelf/hottags",
+    "keywords": ["php, define"],
+    "type": "library",
+    "license": "MIT",
+	"authors": [
+		{
+			"name": "AK Delfin",
+            "email": "masterforweb@hotmail.com"
+    	}
+	],
+	"require": {
+		"php": ">=5.2"
+	},
+    "autoload": {
+        "files": ["hottags.php"]
+    }
+}

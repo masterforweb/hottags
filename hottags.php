@@ -1,6 +1,6 @@
 <?php
 
-function charset($code='utf-8'){
+/*function charset($code='utf-8'){
 	echo '<meta http-equiv="Content-Type" content="text/html; charset='.$code.'" />';
 }
 
@@ -18,13 +18,20 @@ function icon($file) {
 
 function feed($file) {
 	echo '<link title="argumenti_ru" type="application/rss+xml" rel="alternate" href="'.$file.'"/>';
-}
+}*/
 
-function title($var){
+function title($var = ''){
+	
+	static $title ='';
+	
+	if ($var == '')
+		return '<title>'.$title.'</title>';
+	else
+		$title = $var;
 
 }	
 
-function discript($var) {
+/*function discript($var) {
 
 }
 
@@ -46,4 +53,4 @@ function jquery($ver) {
 
 function banner($img, $link, $alt = '') {
 	echo '<a href="'.$link.'" target="_blank"><img src="'.$img.'" alt="'.$alt.'"></a>';
-} 
+} */
